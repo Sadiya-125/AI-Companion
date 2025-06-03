@@ -34,10 +34,10 @@ const Profile = async () => {
             className="rounded-full object-cover"
           />
           <div className="flex flex-col gap-2">
-            <h1 className="font-bold text-2xl break-words max-w-full max-sm:max-w-[200px] max-sm:truncate">
+            <h1 className="font-bold text-2xl break-words max-w-full max-sm:max-w-[180px] max-sm:truncate">
               {user.firstName} {user.lastName}
             </h1>
-            <p className="text-sm text-muted-foreground break-words max-w-full max-sm:max-w-[200px] max-sm:truncate">
+            <p className="text-sm text-muted-foreground break-words max-w-full max-sm:max-w-[180px] max-sm:truncate">
               {user.emailAddresses[0].emailAddress}
             </p>
           </div>
