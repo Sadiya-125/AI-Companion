@@ -164,6 +164,7 @@ const CompanionComponent = ({
               alt="mic"
               width={36}
               height={36}
+              className="w-9 h-9 max-sm:w-6 max-sm:h-6 max-sm:mt-1.5"
             />
             <p className="max-sm:hidden text-md font-bold">
               {isMuted ? "Turn On Microphone" : "Turn Off Microphone"}
@@ -208,7 +209,7 @@ const CompanionComponent = ({
           })}
         </div>
 
-        <div className="transcript-fade" />
+        {messages.length >= 4 && <div className="transcript-fade" />}
       </section>
     </section>
   );

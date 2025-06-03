@@ -24,9 +24,9 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
             <SearchInput />
           </div>
           <Link href="/companions/new">
-            <button className="btn-primary flex items-center gap-2 py-3 md:py-2">
-              <Plus className="text-white" size={20} />
-              <span className="hidden sm:inline">Build a New Companion</span>
+            <button className="btn-primary flex items-center gap-2 py-3 lg:py-2">
+              <Plus className="shrink-0 text-white" size={20} />
+              <span className="hidden lg:inline">Build a New Companion</span>
             </button>
           </Link>
         </div>

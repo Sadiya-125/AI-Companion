@@ -73,7 +73,7 @@ const CompanionForm = () => {
                 <Input
                   placeholder="Enter the Companion Name"
                   {...field}
-                  className="input"
+                  className="input placeholder:text-sm text-sm"
                 />
               </FormControl>
               <FormMessage />
@@ -90,7 +90,7 @@ const CompanionForm = () => {
                 <Textarea
                   placeholder="Ex. Front End Development, React, Next.js, etc."
                   {...field}
-                  className="input"
+                  className="input placeholder:text-sm text-sm"
                 />
               </FormControl>
               <FormMessage />
@@ -160,7 +160,7 @@ const CompanionForm = () => {
                   type="number"
                   placeholder="15"
                   {...field}
-                  className="input"
+                  className="input placeholder:text-sm text-sm"
                 />
               </FormControl>
               <FormMessage />
