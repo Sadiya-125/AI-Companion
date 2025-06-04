@@ -4,16 +4,12 @@ An Advanced Learning Management SaaS (LMS) Platform built with **Next.js**, **Su
 
 🌐 **Live App**: [https://collab-sphere-ai.vercel.app](https://collab-sphere-ai.vercel.app)
 
----
-
 ## 🎓 Features
 
 - 🔐 **Authentication & Billing** with Clerk + Stripe
 - 📡 **Realtime Backend** with Supabase
 - 🗣️ **Voice AI Companions** powered by Vapi AI
 - 🛠️ **Sentry Monitoring** for Errors
-
----
 
 ## 🧪 Plans & Pricing
 
@@ -26,8 +22,6 @@ An Advanced Learning Management SaaS (LMS) Platform built with **Next.js**, **Su
 - ✅ 3 Active Companions
 - ✅ Basic Session Recaps
 
----
-
 ### 🔵 Core Learner
 
 **More Companions. More Growth.** — `$19/month`
@@ -39,9 +33,7 @@ An Advanced Learning Management SaaS (LMS) Platform built with **Next.js**, **Su
 - ✅ Save Conversation History
 - ✅ Unlimited Conversations
 
----
-
-### 🔴 Pro Companion _(Active)_
+### 🔴 Pro Companion
 
 **Your Personal AI-Powered Academy** — `$39/month`
 
@@ -52,8 +44,6 @@ An Advanced Learning Management SaaS (LMS) Platform built with **Next.js**, **Su
 - ✅ Daily Learning Reminders
 - ✅ Priority Support
 
----
-
 ## 🛠️ Tech Stack
 
 - ⚡️ Next.js
@@ -63,8 +53,6 @@ An Advanced Learning Management SaaS (LMS) Platform built with **Next.js**, **Su
 - 🗣️ Vapi
 - 🎨 Tailwind CSS
 - 🛡 Sentry
-
----
 
 ## ⚙️ Local Setup
 
@@ -81,7 +69,7 @@ cd AI-Companion
 npm install
 ```
 
-### 4. Run the Development Server
+### 3. Run the Development Server
 
 ```bash
 npm run dev
